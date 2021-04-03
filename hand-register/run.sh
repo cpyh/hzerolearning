@@ -10,7 +10,7 @@ mvn clean package -Dmaven.javadoc.skip=true
 
 echo ">>> cd target"
 cd target
-mv app.jar $JAR
+mv hand-register.jar $JAR
 
 echo ">>> kill -9 $(lsof -t -sTCP:LISTEN -i:$MPORT)"
 kill -9 $(lsof -t -sTCP:LISTEN -i:$MPORT)
