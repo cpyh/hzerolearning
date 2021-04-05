@@ -6,7 +6,7 @@
     <parent>
         <groupId>org.hzero</groupId>
         <artifactId>hzero-parent</artifactId>
-        <version>1.6.0.RELEASE</version>
+        <version>1.5.5.RELEASE</version>
     </parent>
 
     <groupId>com.hand</groupId>
@@ -25,7 +25,6 @@
             <id>Hzero</id>
             <name>Hzero Repository</name>
             <url>http://nexus.saas.hand-china.com/content/groups/hzero/</url>
-<!--            <url>http://192.168.6.125:8081/#admin/repository/repositories:hzero</url>-->
             <releases>
                 <enabled>true</enabled>
             </releases>
